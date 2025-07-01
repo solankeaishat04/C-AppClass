@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OOP;
+
 
 namespace C_AppClass
 {
@@ -13,5 +15,8 @@ namespace C_AppClass
         {
             return n * n * n;
         }
+
+       
+      
     }
 }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#AppClass", "C#AppClass\C#AppClass.csproj", "{52D9E429-87EB-4894-83C5-033F64458942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{BB4455E0-BC31-4B94-AE35-19D3AD25371E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{52D9E429-87EB-4894-83C5-033F64458942}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D9E429-87EB-4894-83C5-033F64458942}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D9E429-87EB-4894-83C5-033F64458942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4455E0-BC31-4B94-AE35-19D3AD25371E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4455E0-BC31-4B94-AE35-19D3AD25371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4455E0-BC31-4B94-AE35-19D3AD25371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4455E0-BC31-4B94-AE35-19D3AD25371E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
