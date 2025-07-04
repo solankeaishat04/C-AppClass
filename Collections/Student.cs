@@ -4,19 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C_AppClass
+namespace Collections
 {
     internal class Student
     {
-        public int Id;
-        public string Name;
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age {  get; set; } 
     }
-
-    public struct Rectangle
-    {
-        public int width, height;
-    }
-
-
-
 }

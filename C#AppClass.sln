@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#AppClass", "C#AppClass\C#
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{BB4455E0-BC31-4B94-AE35-19D3AD25371E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{A31CCEA7-AEDF-4BFA-8CC3-4F886ADD5A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{33B2BD7A-4B00-44EE-AD35-D157D0BA521A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BB4455E0-BC31-4B94-AE35-19D3AD25371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB4455E0-BC31-4B94-AE35-19D3AD25371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB4455E0-BC31-4B94-AE35-19D3AD25371E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31CCEA7-AEDF-4BFA-8CC3-4F886ADD5A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31CCEA7-AEDF-4BFA-8CC3-4F886ADD5A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31CCEA7-AEDF-4BFA-8CC3-4F886ADD5A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31CCEA7-AEDF-4BFA-8CC3-4F886ADD5A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B2BD7A-4B00-44EE-AD35-D157D0BA521A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B2BD7A-4B00-44EE-AD35-D157D0BA521A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B2BD7A-4B00-44EE-AD35-D157D0BA521A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B2BD7A-4B00-44EE-AD35-D157D0BA521A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

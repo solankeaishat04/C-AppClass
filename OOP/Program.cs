@@ -24,17 +24,19 @@
             AbstractClass ab;
             // ab.display();
 
-            Polymophism ph1 = new Polymophism(3.0, 4.0, 5.0);
-            Polymophism ph2 = new Polymophism(2.0, 3.0,4.0);
-            Polymophism ph3;
+            //Polymophism ph1 = new Polymophism(3.0, 4.0, 5.0);
+            //Polymophism ph2 = new Polymophism(2.0, 3.0,4.0);
+            //Polymophism ph3;
 
-            ph3 = ph1 + ph2;
-            Console.WriteLine("This is the first instance of the polymophism class");
-            ph1.Display();
-            Console.WriteLine("This is the second instance of the polymophism class");
-            ph2.Display();
-            Console.WriteLine("This is the resultant class after addition");
-            ph3.Display();
+            //ph3 = ph1 + ph2;
+            //Console.WriteLine("This is the first instance of the polymophism class");
+            //ph1.Display();
+            //Console.WriteLine("This is the second instance of the polymophism class");
+            //ph2.Display();
+            //Console.WriteLine("This is the resultant class after addition");
+            //ph3.Display();
+
+
         }
     }
 }

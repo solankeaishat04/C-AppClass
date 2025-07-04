@@ -1,4 +1,6 @@
-﻿namespace C_AppClass
+﻿using System.Runtime.Versioning;
+
+namespace C_AppClass
 {
     public class Program
     {
@@ -154,13 +156,73 @@
             //    Console.WriteLine(d);
             //}
 
-            Employee emp = new Employee();
-            emp.Name = "Grace Jude";
-            Console.WriteLine("Emplyee's name is " + emp.Name);
+            //Employee emp = new Employee();
+            //emp.Name = "Grace Jude";
+            //Console.WriteLine("Emplyee's name is " + emp.Name);
+
+            //string greett = "Hello c#";
+            //int lenght = greett.Length;
+            //Console.WriteLine("the length of the string is " + lenght);
+
+            //string lname, fname; 
+            // lname = "Grace";
+            // fname = "Titi";
+
+            //char[] letter = { 'H', 'E', 'L', 'L', 'O' };
+            //string[] greet =  {
+            //"Welcome",
+            //"To",
+            //"C#",
+            //"Class"
+            //};
+
+            //string fullname = fname + " " + lname;
+            //Console.WriteLine("Full Name: {0}", fullname);
+
+
+            //string greetings = new string(letter);
+            //Console.WriteLine($"Greetings: {greetings}");
+
+
+            //string message = String.Join(" ", greet);
+            //Console.WriteLine("Message: {0}", message);
+
+            //DateTime waiting = new DateTime(2025, 07, 07, 10, 44, 4);
+            //string chat = String.Format("Message sent at {0:t} on {0:D}", waiting);
+            //Console.WriteLine("Message: {0}", chat);
+
+
+            //string s2 = "Looping through a string";
+            //string s3 = "Comparing 2 strings";
+            //string s4 = "Comparing 2 strings";
+            //if (string.Compare(s3 , s4) == 0)
+            //{
+            //    Console.WriteLine("They are equal");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("They are not equal");
+            //}
+
+            string str = "To check if they contain";
+            if (str.Contains("To"))
+            {
+                Console.WriteLine("It contains to");   
+            }
+
+            //foreach (char ch in s2)
+            //{
+            //    Console.WriteLine(ch);
+            //}
+
 
             Console.ReadLine();
 
         }
+
+
+
+
 
         public enum Days
         {
@@ -226,7 +288,18 @@
         //{
         //    Console.WriteLine("Inside the show function");
         //    return message;
-        //}
+        //} 
 
-    }
+
+        
+
+       
+
+
+        
+     }
+
+
+
 }
+
